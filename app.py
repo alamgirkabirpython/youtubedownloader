@@ -192,7 +192,7 @@ st.markdown(
 st.markdown(
     """
     <div class="footer">
-        &copy; 2024 YouTube Downloader | Powered by Norton&trade; Safe Web
+        &copy; 2024 Video/Audio Downloader | Powered by Alamgir&trade; Safe Web
     </div>
     """,
     unsafe_allow_html=True,
