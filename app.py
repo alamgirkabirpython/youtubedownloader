@@ -3,7 +3,7 @@ from yt_dlp import YoutubeDL
 import os
 
 # Set up the Streamlit page
-st.set_page_config(page_title="YouTube Downloader", layout="wide")
+st.set_page_config(page_title="YouTube,Pinterest and Facebook Downloader", layout="wide")
 
 # Custom CSS for an attractive UI
 st.markdown(
@@ -92,7 +92,7 @@ st.markdown(
 # Header and Navbar with logos and links to features
 st.markdown(
     """
-    <div class="main-header">YouTube Video Downloader</div>
+    <div class="main-header">YouTube, Pinterest and Facebook Video/Audio Downloader</div>
     <div class="navbar">
         <a href="https://www.youtube.com" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube Logo" />
