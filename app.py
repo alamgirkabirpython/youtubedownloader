@@ -1,6 +1,14 @@
 import streamlit as st
 from yt_dlp import YoutubeDL
 import os
+hide_github_icon = """
+<style>
+#GithubIcon {
+  display: none;
+}
+</style>
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 # Set up the Streamlit page
 st.set_page_config(page_title="YouTube,Pinterest and Facebook Downloader", layout="wide")
